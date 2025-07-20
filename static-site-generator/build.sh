@@ -1,3 +1,7 @@
 #!/bin/bash
 
-python3 src/main.py "/static-site-generator/"
+rm -rf docs
+mkdir -p docs
+python3 src/main.py content/ template.html docs
+cp -r static/* docs/
+
