@@ -1,7 +1,7 @@
 import os
 import shutil
 
-def copy_static_contents(src_dir: str, dest_dir: str) -> None:
+def copy_static(src_dir: str, dest_dir: str) -> None:
     if os.path.exists(dest_dir):
         print(f"Removing existing directory: {dest_dir}")
         shutil.rmtree(dest_dir)
