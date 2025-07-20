@@ -1,0 +1,13 @@
+body {
+  background-color: #1f1c25;
+  color: #f0e6d1;
+  font-family: "Luminari", "Georgia", serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* rest of your CSS as per your original */
